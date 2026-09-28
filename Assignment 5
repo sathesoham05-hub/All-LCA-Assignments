@@ -1,0 +1,5 @@
+s="python123"
+if re.search(r'[a-zA-Z0-9]',s):
+  print("valid string")
+else:
+  print("invalid string")
